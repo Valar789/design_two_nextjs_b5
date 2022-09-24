@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
     return (
         <section id="pricing" className="pricing">
@@ -23,7 +25,7 @@ export default function Pricing() {
                 <li className="na">Massa ultricies mi</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Buy Now</a>
+                <Link href="#"><a  className="btn-buy">Buy Now</a></Link>
               </div>
             </div>
           </div>
@@ -40,7 +42,7 @@ export default function Pricing() {
                 <li className="na">Massa ultricies mi</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Buy Now</a>
+                <Link href="#"><a  className="btn-buy">Buy Now</a></Link>
               </div>
             </div>
           </div>
@@ -57,7 +59,7 @@ export default function Pricing() {
                 <li>Massa ultricies mi</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Buy Now</a>
+                <Link href="#"><a  className="btn-buy">Buy Now</a></Link>
               </div>
             </div>
           </div>
@@ -75,7 +77,7 @@ export default function Pricing() {
                 <li>Massa ultricies mi</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Buy Now</a>
+                <Link href="#"><a  className="btn-buy">Buy Now</a></Link>
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "./Hero";
 import About from "./Main/About";
 import Contact from "./Main/Contact";
@@ -18,12 +19,14 @@ export default function Main() {
       <Resume />
       <Services />
       <Testimonials />
+      <Link  href="#">
       <a
-        href="#"
+       
         className="back-to-top d-flex align-items-center justify-content-center"
       >
         <i className="bi bi-arrow-up-short"></i>
       </a>
+      </Link>
     </>
   );
 }
